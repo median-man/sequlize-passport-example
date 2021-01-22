@@ -7,3 +7,8 @@ I've created this repo in order to provide some version control separate from th
 ## Deployment
 
 This app is configured for using GitHub with Travis CI for version control and CI. The project is ready for deployment on Heroku. A JawsDB instance must be provisioned for the Heroku app.
+
+## Running Locally
+
+- Update username, password, and database fields in `/config/config.json` for local MySQL server connection.
+- Run `npm run watch` to start development server using nodemon.
